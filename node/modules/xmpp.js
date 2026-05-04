@@ -14,7 +14,7 @@ var EventEmitter = require( "events" ).EventEmitter,
 		util = require('util'),
 		obj = {},
 		a = require('async'),
-		uuid = require('node-uuid');
+		uuid = require('uuid');
 
 Xmpp = function(freepbx) {
 	var context = {},

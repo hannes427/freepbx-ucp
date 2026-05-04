@@ -3,19 +3,19 @@
   "description": "UCP Backend Server",
   "author": "Schmoozecom, Inc <info@schmoozecom.com>",
   "dependencies": {
-    "asterisk-manager": "0.2.0",
-    "async": "3.2.4",
-    "express": "4.18.2",
-    "ltx": "3.0.0",
-    "mariadb": "~3.4.5",
-    "node-uuid": "1.4.8",
-    "node-xmpp-client": "3.2.0",
-    "q": "1.5.1",
-    "socket.io": "^4.7.4"
+    "asterisk-manager": "^0.2.0",
+    "async": "^3.2.6",
+    "express": "^4.21.2",
+    "ltx": "^3.1.2",
+    "mariadb": "^3.5.2",
+    "uuid": "^11.1.0",
+    "node-xmpp-client": "^3.2.0",
+    "q": "^1.5.1",
+    "socket.io": "^4.8.3"
   },
   "engines": {
-    "node": ">= 6.8.0",
-    "npm": ">= 3.10.8"
+    "node": ">= 18.0.0",
+    "npm": ">= 9.0.0"
   },
   "private": true
 }
