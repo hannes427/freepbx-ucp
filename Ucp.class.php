@@ -20,8 +20,8 @@ class Ucp implements \BMO {
 	private $tokenCache = false;
 
 	//node server
-	private string $nodever = "6.5.0";
-	private string $npmver = "3.10.3";
+	private string $nodever = "18.0.0";
+	private string $npmver = "9.0.0";
 	private string $icuver = "50.1.2";
 	private string $gcc = "4.8.5";
 	private $nodeloc = "/tmp";
